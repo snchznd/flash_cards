@@ -1,7 +1,8 @@
-from card import Card
+from decksmanager import DecksManager
 
 def main():
-    my_card = Card('what color is the sky?', 'blue')
+    decks_manager = DecksManager()    
+    decks_manager.create_deck()
 
 if __name__ == '__main__' :
     main()

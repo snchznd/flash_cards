@@ -11,7 +11,7 @@ class Card:
         return hash(self)
 
     def __str__(self):
-        representation = ('question : {0}\nanswer : {1}\nadditional information : {2}'
+        representation = ('    question : {0}\n    answer : {1}\n    additional information : {2}'
                           .format(self.question, self.answer, self.additional_info))
         return representation
 
